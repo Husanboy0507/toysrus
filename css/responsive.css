@@ -1,0 +1,13 @@
+@media only screen and (max-width:768px) {
+    .navbar .navbar__nav a{
+        display: none;
+    }
+
+    .banner__content .item{
+        width: 100%;
+    }
+
+    .marvel__content, .animals__content, .discovry__content{
+       grid-template-columns: repeat(2,1fr);
+    }
+}

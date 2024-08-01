@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body {
+    line-height: 1.4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: 92vh;
+    background-image: url(/header.jpg);
+    background-size: 100% 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+.navbar .nav__logo img {
+    width: 22%;
+    height: 24%;
+    font-size: 1rem;
+}
+
+.navbar__nav a {
+    margin-left: 17px;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.banner__content {
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    color: rgb(34, 200, 12);
+}
+
+.banner__content .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.marvel .container .title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.marvel__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.marvel .container .marvel__content .item {
+    box-shadow: 8px 8px 10px rgb(128, 127, 127);
+}
+
+.marvel__content .item .text {
+    background-color: rgb(221, 221, 221);
+    height: 18vh;
+    text-align: center;
+}
+
+.marvel__content .item .text h4 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.marvel__content .item .text button {
+    width: 40%;
+    height: 4.7vh;
+    color: rgb(47, 44, 215);
+    font-weight: 550;
+    margin-top: 10px;
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+.animals .container {
+    margin-top: 4rem;
+}
+
+.animals .container .title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.animals__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.animals .container .animals__content .item {
+    box-shadow: 8px 8px 10px rgb(128, 127, 127);
+    border: 1px solid rgb(42, 41, 41);
+}
+
+.animals__content .item .text {
+    background-color: rgb(221, 221, 221);
+    height: 18vh;
+    text-align: center;
+}
+
+.animals__content .item .text h4 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.animals__content .item .text button {
+    width: 40%;
+    height: 4.7vh;
+    color: rgb(47, 44, 215);
+    font-weight: 550;
+    margin-top: 10px;
+    border: 1px solid blue;
+    margin-right: 10rem;
+}
+
+
+
+
+
+
+
+.discovry .container {
+    margin-top: 4rem;
+}
+
+.discovry .container .title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ .discovry__content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.discovry .container .discovry__content .item {
+    box-shadow: 8px 8px 10px rgb(128, 127, 127);
+    border: 1px solid rgb(42, 41, 41);
+}
+
+.discovry__content .item .text {
+    background-color: rgb(221, 221, 221);
+    height: 18vh;
+    text-align: center;
+}
+
+.discovry__content .item .text h4 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.discovry__content .item .text button {
+    width: 40%;
+    height: 4.7vh;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    margin-top: 10px;
+    margin-right: 10rem;
+    background-color: rgb(49, 173, 49);
+    border-radius: 5px;
+}
