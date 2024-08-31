@@ -157,7 +157,7 @@ padding: 6px 0;
     font-weight: 550;
     margin-top: 10px;
     border: 1px solid blue;
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
 }
 
 
@@ -205,7 +205,7 @@ padding: 6px 0;
     color: rgb(255, 255, 255);
     font-weight: 550;
     margin-top: 10px;
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
     background-color: rgb(49, 173, 49);
     border-radius: 5px;
 }
