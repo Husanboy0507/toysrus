@@ -104,8 +104,8 @@ img {
 }
 
 .marvel__content .item .text button {
-    width: 40%;
-    height: 4.7vh;
+
+    padding: 6px 0;
     color: rgb(47, 44, 215);
     font-weight: 550;
     margin-top: 10px;
@@ -152,8 +152,7 @@ img {
 }
 
 .animals__content .item .text button {
-    width: 40%;
-    height: 4.7vh;
+padding: 6px 0;
     color: rgb(47, 44, 215);
     font-weight: 550;
     margin-top: 10px;
@@ -202,8 +201,7 @@ img {
 }
 
 .discovry__content .item .text button {
-    width: 40%;
-    height: 4.7vh;
+padding: 6px 0;
     color: rgb(255, 255, 255);
     font-weight: 550;
     margin-top: 10px;
